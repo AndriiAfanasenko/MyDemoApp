@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="primary">#ffffff</color>
+  <color name="primary_dark">#000000</color>
+  <color name="primary_light">#FFCDD2</color>
+  <color name="accent">#1dd1c1</color>
+  <color name="primary_text">#212121</color>
+  <color name="secondary_text">#757575</color>
+  <color name="icons">#FFFFFF</color>
+  <color name="divider">#BDBDBD</color>
+    <color name="black">#000000</color>
+    <color name="tab_indicator">#1dd1c1</color>
+    <color name="tab_selected_text">#1dd1c1</color>
+    <color name="tab_unselected_text">#acc9c3</color>
+    <color name="hint_color">#a8c6c0</color>
+</resources>

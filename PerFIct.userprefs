@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{F00A5587-583D-46EB-996C-09C5CE1FB754}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="PerFIct.Core/ViewModels/MainViewModel.cs" Line="16" Column="41" />
+      <File FileName="PerFIct.Droid/Properties/AndroidManifest.xml" Line="9" Column="12" />
+      <File FileName="PerFIct.Droid/Views/MainView.cs" Line="68" Column="43" />
+      <File FileName="PerFIct.Droid/Views/FragmentsStart/FirstFragment.cs" Line="18" Column="82" />
+      <File FileName="PerFIct.Droid/Resources/values/Strings.xml" Line="1" Column="1" />
+      <File FileName="PerFIct.Core/App.cs" Line="1" Column="1" />
+      <File FileName="PerFIct.Core/ViewModels/FirstViewModel.cs" Line="14" Column="66" />
+      <File FileName="PerFIct.Core/ViewModels/SecondViewModel.cs" Line="14" Column="67" />
+      <File FileName="PerFIct.Droid/Views/FragmentsStart/SecondFragment.cs" Line="19" Column="18" />
+      <File FileName="PerFIct.Droid/Views/FragmentsStart/ThirdFragment.cs" Line="24" Column="74" />
+      <File FileName="PerFIct.Droid/Adapters/MvxViewPagerFragmentAdapter.cs" Line="20" Column="32" />
+      <File FileName="PerFIct.Droid/SplashScreen.cs" Line="11" Column="9" />
+      <File FileName="PerFIct.Droid/Resources/drawable/dot_selector.xml" Line="5" Column="12" />
+      <File FileName="PerFIct.Droid/Resources/drawable/selected_dot.xml" Line="9" Column="36" />
+      <File FileName="PerFIct.Droid/Resources/drawable/default_dot.xml" Line="2" Column="71" />
+      <File FileName="PerFIct.Droid/Resources/values/colors.xml" Line="6" Column="22" />
+      <File FileName="PerFIct.Droid/Resources/values/styles.xml" Line="45" Column="34" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.1.0-25/lib/xamarin.android/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1334" Column="2" />
+      <File FileName="PerFIct.Droid/Resources/drawable/button_design.xml" Line="4" Column="4" />
+      <File FileName="PerFIct.Droid/Views/RegistrationView.cs" Line="31" Column="1" />
+      <File FileName="PerFIct.Core/ViewModels/RegistrationViewModel.cs" Line="14" Column="44" />
+      <File FileName="PerFIct.Droid/Views/FragmentsMain/ExerciserFragment.cs" Line="29" Column="6" />
+      <File FileName="PerFIct.Droid/Views/FragmentsMain/TrainerFragment.cs" Line="14" Column="63" />
+      <File FileName="PerFIct.Droid/Resources/drawable/button_design_rounded.xml" Line="16" Column="14" />
+      <File FileName="PerFIct.Droid/Resources/drawable/button_facebook.xml" Line="13" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PerFIct.Droid AndroidDesignerPreferredDevice="Nexus 5" PreferredExecutionTarget="Android.M95HACQB3AJQT" AndroidDesignerPreferredTheme="SampleTabsTheme" />
+  <MultiItemStartupConfigurations />
+</Properties>

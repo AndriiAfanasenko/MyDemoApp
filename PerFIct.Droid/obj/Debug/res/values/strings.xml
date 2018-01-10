@@ -1,0 +1,13 @@
+<resources><string name="hello">Hello World, Click Me!</string><string name="app_name">PerFIct</string><string name="trainer_topic">
+      Interested in being a trainer on our app?
+      \n\r
+      \n\rWe would love to have you! Head to <a href="http://www.perfict.co">www.perfict.co</a>  at the sing-up link below to get in touch with other team.
+      \n\r
+      \n\rAs a trainer for PerFIct, you must:
+      \n\r-Have a Nationally recognized certefication or degree
+      \n\r-Have at least (1) year of personal training experience
+      \n\r-Be capable of creating unique fitness programs for our exercisers.
+      \n\r
+      \n\rStill interested? Sign-up below!
+      \n\r
+    </string></resources>
