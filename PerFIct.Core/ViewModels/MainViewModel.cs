@@ -17,5 +17,6 @@ namespace PerFIct.Core.ViewModels
             Third = new ThirdViewModel();
         }   */
         public ICommand GoToSignUp => new MvxCommand(() => ShowViewModel<RegistrationViewModel>());
+       
     }
 }

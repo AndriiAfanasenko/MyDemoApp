@@ -9,6 +9,7 @@ MvvmCross.Droid.Support.V7.AppCompat
 MvvmCross.Localization
 MvvmCross.Platform
 MvvmCross.Platform.Droid
+MvvmValidation
 Naxam.ViewPagerIndicator.Droid
 PerFIct.Core
 System.Runtime

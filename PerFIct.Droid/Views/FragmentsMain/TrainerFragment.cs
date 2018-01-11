@@ -16,7 +16,7 @@ namespace PerFIct.Droid.Views.FragmentsMain
             var view = inflater.Inflate(Resource.Layout.TrainerFragment, null);
            
 
-            return this.BindingInflate(Resource.Layout.TrainerFragment, null);
+            return view;
         }
     }
 }

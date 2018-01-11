@@ -118,6 +118,7 @@ class MonoPackageManager_Resources {
 		"MvvmCross.Localization.dll",
 		"MvvmCross.Platform.dll",
 		"MvvmCross.Platform.Droid.dll",
+		"MvvmValidation.dll",
 		"Naxam.ViewPagerIndicator.Droid.dll",
 		"PerFIct.Core.dll",
 		"ViewPagerIndicator.dll",
