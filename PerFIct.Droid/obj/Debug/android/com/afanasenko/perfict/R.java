@@ -4074,7 +4074,7 @@ containing a value of this type.
         public static final int bottom=0x7f09003e;
         public static final int button=0x7f0900a5;
         public static final int button2=0x7f0900b8;
-        public static final int button3=0x7f0900d3;
+        public static final int buttonGoToPerfict=0x7f0900d4;
         public static final int buttonPanel=0x7f09006f;
         public static final int button_sign_up=0x7f0900af;
         public static final int cancel_action=0x7f0900bd;
@@ -4100,6 +4100,7 @@ containing a value of this type.
         public static final int design_menu_item_text=0x7f0900a1;
         public static final int design_navigation_view=0x7f0900a0;
         public static final int disableHome=0x7f090021;
+        public static final int dots=0x7f0900b7;
         public static final int edit_query=0x7f09008a;
         public static final int email_edittext=0x7f0900ac;
         public static final int email_field=0x7f0900ab;
@@ -4125,8 +4126,8 @@ containing a value of this type.
         public static final int image=0x7f09006b;
         public static final int imageView1=0x7f0900b5;
         public static final int imageView2=0x7f0900ce;
-        public static final int imageView3=0x7f0900d0;
-        public static final int indicator=0x7f0900b7;
+        public static final int imageView3=0x7f0900d1;
+        public static final int indicator=0x7f0900d0;
         public static final int info=0x7f0900c6;
         public static final int italic=0x7f090061;
         public static final int item_touch_helper_previous_elevation=0x7f090000;
@@ -4142,9 +4143,9 @@ containing a value of this type.
         public static final int main_tablayout=0x7f0900cd;
         public static final int main_toolbar=0x7f0900cc;
         public static final int main_view_pager=0x7f0900b6;
-        public static final int masked=0x7f0900d5;
+        public static final int masked=0x7f0900d6;
         public static final int media_actions=0x7f0900bf;
-        public static final int message=0x7f0900d1;
+        public static final int message=0x7f0900d2;
         public static final int middle=0x7f090032;
         public static final int mini=0x7f090054;
         public static final int multiply=0x7f090028;
@@ -4235,7 +4236,7 @@ containing a value of this type.
         public static final int transition_scene_layoutid_cache=0x7f090012;
         public static final int transition_transform=0x7f090013;
         public static final int triangle=0x7f090064;
-        public static final int tvTrainerTopic=0x7f0900d2;
+        public static final int tvTrainerTopic=0x7f0900d3;
         public static final int underline=0x7f090065;
         public static final int uniform=0x7f09002e;
         public static final int up=0x7f090009;
@@ -4244,7 +4245,7 @@ containing a value of this type.
         public static final int username_field=0x7f0900a9;
         public static final int vertical=0x7f090063;
         public static final int view_offset_helper=0x7f090016;
-        public static final int visible=0x7f0900d4;
+        public static final int visible=0x7f0900d5;
         public static final int withText=0x7f09003d;
         public static final int wrap=0x7f090059;
         public static final int wrap_content=0x7f09002f;

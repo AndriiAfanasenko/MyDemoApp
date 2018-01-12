@@ -4930,8 +4930,8 @@ namespace PerFIct.Droid
 			// aapt resource value: 0x7f0900b8
 			public const int button2 = 2131296440;
 			
-			// aapt resource value: 0x7f0900d3
-			public const int button3 = 2131296467;
+			// aapt resource value: 0x7f0900d4
+			public const int buttonGoToPerfict = 2131296468;
 			
 			// aapt resource value: 0x7f09006f
 			public const int buttonPanel = 2131296367;
@@ -5008,6 +5008,9 @@ namespace PerFIct.Droid
 			// aapt resource value: 0x7f090021
 			public const int disableHome = 2131296289;
 			
+			// aapt resource value: 0x7f0900b7
+			public const int dots = 2131296439;
+			
 			// aapt resource value: 0x7f09008a
 			public const int edit_query = 2131296394;
 			
@@ -5083,11 +5086,11 @@ namespace PerFIct.Droid
 			// aapt resource value: 0x7f0900ce
 			public const int imageView2 = 2131296462;
 			
-			// aapt resource value: 0x7f0900d0
-			public const int imageView3 = 2131296464;
+			// aapt resource value: 0x7f0900d1
+			public const int imageView3 = 2131296465;
 			
-			// aapt resource value: 0x7f0900b7
-			public const int indicator = 2131296439;
+			// aapt resource value: 0x7f0900d0
+			public const int indicator = 2131296464;
 			
 			// aapt resource value: 0x7f0900c6
 			public const int info = 2131296454;
@@ -5134,14 +5137,14 @@ namespace PerFIct.Droid
 			// aapt resource value: 0x7f0900b6
 			public const int main_view_pager = 2131296438;
 			
-			// aapt resource value: 0x7f0900d5
-			public const int masked = 2131296469;
+			// aapt resource value: 0x7f0900d6
+			public const int masked = 2131296470;
 			
 			// aapt resource value: 0x7f0900bf
 			public const int media_actions = 2131296447;
 			
-			// aapt resource value: 0x7f0900d1
-			public const int message = 2131296465;
+			// aapt resource value: 0x7f0900d2
+			public const int message = 2131296466;
 			
 			// aapt resource value: 0x7f090032
 			public const int middle = 2131296306;
@@ -5413,8 +5416,8 @@ namespace PerFIct.Droid
 			// aapt resource value: 0x7f090064
 			public const int triangle = 2131296356;
 			
-			// aapt resource value: 0x7f0900d2
-			public const int tvTrainerTopic = 2131296466;
+			// aapt resource value: 0x7f0900d3
+			public const int tvTrainerTopic = 2131296467;
 			
 			// aapt resource value: 0x7f090065
 			public const int underline = 2131296357;
@@ -5440,8 +5443,8 @@ namespace PerFIct.Droid
 			// aapt resource value: 0x7f090016
 			public const int view_offset_helper = 2131296278;
 			
-			// aapt resource value: 0x7f0900d4
-			public const int visible = 2131296468;
+			// aapt resource value: 0x7f0900d5
+			public const int visible = 2131296469;
 			
 			// aapt resource value: 0x7f09003d
 			public const int withText = 2131296317;

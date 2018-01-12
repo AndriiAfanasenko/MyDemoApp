@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Android.App;
+using Android.Content.PM;
 using Android.OS;
 using Android.Support.Design.Widget;
 using Android.Support.V4.View;
@@ -14,7 +15,7 @@ using PerFIct.Droid.Views.FragmentsMain;
 
 namespace PerFIct.Droid.Views
 {
-    [Activity(Label = "View for RegistrationViewModel")]
+    [Activity(Label = "View for RegistrationViewModel", ScreenOrientation = ScreenOrientation.Portrait)]
     public class RegistrationView: MvxAppCompatActivity
     {
         private ViewPager _viewPager;
@@ -32,21 +33,18 @@ namespace PerFIct.Droid.Views
             SetContentView(Resource.Layout.RegistrationLayout);
 
             var toolbar = FindViewById<Toolbar>(Resource.Id.main_toolbar);
-           // toolbar.SetTitleTextColor(Resource.Color.black);
            
             SetSupportActionBar(toolbar);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.Title = "Sign up";
 
-
-
             var fragments = new List<MvxViewPagerFragmentAdapter.FragmentInfo>
-              {
+            {
                 new MvxViewPagerFragmentAdapter.FragmentInfo
                 {
                   FragmentType = typeof(ExerciserFragment),
                   Title = "EXERCISER",
-                    ViewModel = ViewModel.First
+                  ViewModel = ViewModel.First
                 },
                 new MvxViewPagerFragmentAdapter.FragmentInfo
                 {
@@ -54,15 +52,11 @@ namespace PerFIct.Droid.Views
                   Title = "TRAINER",
                   ViewModel = ViewModel.Second
                 }
-              };
+            };
 
             _viewPager = FindViewById<ViewPager>(Resource.Id.main_view_pager);
             _adapter = new MvxViewPagerFragmentAdapter(this, SupportFragmentManager, fragments);
             _viewPager.Adapter = _adapter;
-
-          
-            //If you want to start at specific tab
-            //viewPager.SetCurrentItem(ViewModel.CurrentPage, false);
 
             var tabLayout = FindViewById<TabLayout>(Resource.Id.main_tablayout);
             tabLayout.SetupWithViewPager(_viewPager);
@@ -72,10 +66,9 @@ namespace PerFIct.Droid.Views
             switch (item.ItemId)
             {
                 case Android.Resource.Id.Home:
-                    this.OnBackPressed();
+                    OnBackPressed();
                     return true;
             }
-
             return base.OnOptionsItemSelected(item);
         }
     }

@@ -1,11 +1,9 @@
-﻿using System;
+﻿
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
-using PerFIct.Core.ViewModels;
 using MvvmCross.Droid.Support.V4;
 using MvvmCross.Binding.Droid.BindingContext;
-using System.Collections.Generic;
 
 namespace PerFIct.Droid.Views.Fragments
 {

@@ -5,13 +5,13 @@ namespace PerFIct.Core.ViewModels
 {
     public class RegistrationViewModel:MvxViewModel
     {
-        public FirstViewModel First { get; private set; }
-        public SecondViewModel Second { get; private set; }
+        public ExerciserViewModel First { get; private set; }
+        public TrainerViewModel Second { get; private set; }
 
         public RegistrationViewModel()
         {
-            First = new FirstViewModel();
-            Second = new SecondViewModel();
+            First = new ExerciserViewModel();
+            Second = new TrainerViewModel();
         }
     }
 }

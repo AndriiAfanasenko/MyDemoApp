@@ -44,7 +44,7 @@
     
    <style name="EditTextHintStyle" parent="Widget.AppCompat.EditText">
     <item name="android:textColor">@color/hint_color</item>
-            <item name="android:textStyle">normal</item>
+    <item name="android:textStyle">normal</item>
     <item name="android:textSize">16sp</item>
 </style>
 </resources>
