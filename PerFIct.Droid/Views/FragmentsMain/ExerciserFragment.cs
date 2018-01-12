@@ -2,7 +2,7 @@
 using Android.Runtime;
 using Android.Views;
 using MvvmCross.Droid.Support.V4;
-
+using PerFIct.Core.ViewModels;
 
 namespace PerFIct.Droid.Views.FragmentsMain
 {
@@ -17,5 +17,6 @@ namespace PerFIct.Droid.Views.FragmentsMain
 
             return view;
       }
+ 
     }
 }

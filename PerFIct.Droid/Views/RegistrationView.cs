@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using Android.App;
-using Android.Content.PM;
 using Android.OS;
 using Android.Support.Design.Widget;
 using Android.Support.V4.View;
@@ -15,7 +14,7 @@ using PerFIct.Droid.Views.FragmentsMain;
 
 namespace PerFIct.Droid.Views
 {
-    [Activity(Label = "View for RegistrationViewModel", ScreenOrientation = ScreenOrientation.Portrait)]
+    [Activity(Label = "View for RegistrationViewModel")]
     public class RegistrationView: MvxAppCompatActivity
     {
         private ViewPager _viewPager;
@@ -69,6 +68,7 @@ namespace PerFIct.Droid.Views
                     OnBackPressed();
                     return true;
             }
+
             return base.OnOptionsItemSelected(item);
         }
     }

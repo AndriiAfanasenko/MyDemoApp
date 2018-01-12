@@ -14,8 +14,7 @@
             android:layout_height="wrap_content"
             android:background="?attr/colorPrimary"
             android:theme="@style/SampleTabsToolbar"
-            local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            />
+            local:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
         <android.support.design.widget.TabLayout
             android:id="@+id/main_tablayout"
             android:layout_width="match_parent"

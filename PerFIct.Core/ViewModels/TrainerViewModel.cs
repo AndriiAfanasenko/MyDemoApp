@@ -5,8 +5,6 @@ namespace PerFIct.Core.ViewModels
 {
     public class TrainerViewModel : MvxViewModel
     {
-       
-
-
+   
     }
 }

@@ -45,7 +45,8 @@
                 android:hint="Name"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                local:MvxBind="Text Email; Error Errors['Email']"/>
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
             android:id="@+id/username_field"
@@ -107,8 +108,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:MvxBind="Click SigninCommand" />
-    <LinearLayout
+        local:MvxBind="Click SigninCommand"/>
+    
+  <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

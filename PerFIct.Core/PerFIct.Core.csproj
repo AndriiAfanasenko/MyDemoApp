@@ -31,6 +31,9 @@
     <OutputPath>bin\deploy\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Common\InvertedValueConverter.cs" />
+    <Compile Include="Common\ObservableDictionary.cs" />
+    <Compile Include="Common\ValidationResultExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="App.cs" />
@@ -58,8 +61,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
