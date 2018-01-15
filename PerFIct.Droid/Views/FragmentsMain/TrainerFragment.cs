@@ -15,13 +15,10 @@ namespace PerFIct.Droid.Views.FragmentsMain
        
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Android.OS.Bundle savedInstanceState)
         {
-            var ignore = base.OnCreateView(inflater, container, savedInstanceState);
-        
-           
+            var ignore = base.OnCreateView(inflater, container, savedInstanceState);   
             var view = this.BindingInflate(Resource.Layout.TrainerFragment, null);
 
             var buttonGoToPerfict = view.FindViewById<Button>(Resource.Id.buttonGoToPerfict);
-
             buttonGoToPerfict.Click += ButtonGoToPerfict_Click;
 
             return view;

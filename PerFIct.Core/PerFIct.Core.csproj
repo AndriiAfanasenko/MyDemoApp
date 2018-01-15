@@ -31,7 +31,6 @@
     <OutputPath>bin\deploy\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Common\InvertedValueConverter.cs" />
     <Compile Include="Common\ObservableDictionary.cs" />
     <Compile Include="Common\ValidationResultExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

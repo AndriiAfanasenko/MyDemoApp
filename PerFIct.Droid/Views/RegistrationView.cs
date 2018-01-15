@@ -12,6 +12,7 @@ using MvvmCross.Droid.Support.V4;
 using PerFIct.Core.ViewModels;
 using PerFIct.Droid.Adapters;
 using PerFIct.Droid.Views.FragmentsMain;
+using Android.Views.InputMethods;
 
 namespace PerFIct.Droid.Views
 {
@@ -31,6 +32,9 @@ namespace PerFIct.Droid.Views
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.RegistrationLayout);
+
+
+
 
             var toolbar = FindViewById<Toolbar>(Resource.Id.main_toolbar);
            
@@ -61,6 +65,8 @@ namespace PerFIct.Droid.Views
             var tabLayout = FindViewById<TabLayout>(Resource.Id.main_tablayout);
             tabLayout.SetupWithViewPager(_viewPager);
         }
+
+    
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
             switch (item.ItemId)

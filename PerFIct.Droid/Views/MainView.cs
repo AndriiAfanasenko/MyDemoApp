@@ -40,10 +40,30 @@ namespace PerFIct.Droid.Views
             _viewPager = FindViewById<ViewPager>(Resource.Id.main_view_pager);
             _adapter = new MvxViewPagerFragmentAdapter(this, SupportFragmentManager, fragments);
             _viewPager.Adapter = _adapter;
-
+            
             var dots = FindViewById<TabLayout>(Resource.Id.dots);
-            dots.SetupWithViewPager(_viewPager, true); 
+            dots.SetupWithViewPager(_viewPager, true);
 
+            var timer = new System.Timers.Timer();
+            timer.Interval = 2000;
+            timer.Enabled = true;
+            int page = 0;
+            timer.Elapsed += (sender, args) =>
+            {
+                RunOnUiThread(() =>
+                {
+                    if (page <= _viewPager.Adapter.Count)
+                    {
+                        page++;
+                    }
+                    else
+                    {
+                        page = 0;
+                    }
+                    _viewPager.SetCurrentItem(page, true);
+                   
+                });
+            };
         }
     }     
 }
