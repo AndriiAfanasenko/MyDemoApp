@@ -163,12 +163,16 @@
     <Compile Include="Views\RegistrationView.cs" />
     <Compile Include="Views\FragmentsMain\ExerciserFragment.cs" />
     <Compile Include="Views\FragmentsMain\TrainerFragment.cs" />
+    <Compile Include="Views\SignInView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="packages.config" />
+    <AndroidResource Include="Resources\layout\SignInLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
@@ -194,11 +198,15 @@
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SecondStartFragment.axml" />
     <AndroidResource Include="Resources\layout\ThirdStartFragment.axml" />
-    <AndroidResource Include="Resources\layout\RegistrationLayout.axml" />
+    <AndroidResource Include="Resources\layout\RegistrationLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\layout\ExerciserFragment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\TrainerFragment.axml" />
+    <AndroidResource Include="Resources\layout\TrainerFragment.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\drawable\button_design_rounded.xml" />
     <AndroidResource Include="Resources\drawable\button_facebook.xml" />
   </ItemGroup>

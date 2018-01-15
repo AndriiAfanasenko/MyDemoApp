@@ -14,7 +14,7 @@ namespace PerFIct.Core.ViewModels
 
     public class ExerciserViewModel:MvxViewModel
     {
-
+        public ICommand GoToSignIn => new MvxCommand(() => ShowViewModel<SignInViewModel>());
         private ValidationHelper _validator ;
 
       

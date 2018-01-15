@@ -8,5 +8,6 @@ namespace PerFIct.Core.ViewModels
     public class MainViewModel : MvxViewModel
     {
         public ICommand GoToSignUp => new MvxCommand(() => ShowViewModel<RegistrationViewModel>());
+        public ICommand GoToSignIn => new MvxCommand(() => ShowViewModel<SignInViewModel>());
     }
 }

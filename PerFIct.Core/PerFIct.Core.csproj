@@ -38,6 +38,7 @@
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="App.cs" />
     <Compile Include="ViewModels\ExerciserViewModel.cs" />
+    <Compile Include="ViewModels\SignInViewModel.cs" />
     <Compile Include="ViewModels\TrainerViewModel.cs" />
     <Compile Include="ViewModels\RegistrationViewModel.cs" />
   </ItemGroup>

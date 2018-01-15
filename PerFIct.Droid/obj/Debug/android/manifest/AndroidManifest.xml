@@ -13,6 +13,7 @@
     </activity>
     <activity android:label="View for MainViewModel" android:screenOrientation="portrait" android:name="md5a8be4a6364873456f106b5177ae5e322.MainView" />
     <activity android:label="View for RegistrationViewModel" android:name="md5a8be4a6364873456f106b5177ae5e322.RegistrationView" />
+    <activity android:label="View for SignInViewModel" android:noHistory="true" android:name="md5a8be4a6364873456f106b5177ae5e322.SignInView" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.afanasenko.PerFIct.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

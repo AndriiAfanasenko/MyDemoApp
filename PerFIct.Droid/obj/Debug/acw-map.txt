@@ -14,6 +14,10 @@ PerFIct.Droid.Views.RegistrationView, PerFIct.Droid;md5a8be4a6364873456f106b5177
 PerFIct.Droid.Views.RegistrationView, PerFIct.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a8be4a6364873456f106b5177ae5e322.RegistrationView
 PerFIct.Droid.Views.RegistrationView;md5a8be4a6364873456f106b5177ae5e322.RegistrationView
 perfict.droid.views.RegistrationView;md5a8be4a6364873456f106b5177ae5e322.RegistrationView
+PerFIct.Droid.Views.SignInView, PerFIct.Droid;md5a8be4a6364873456f106b5177ae5e322.SignInView
+PerFIct.Droid.Views.SignInView, PerFIct.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a8be4a6364873456f106b5177ae5e322.SignInView
+PerFIct.Droid.Views.SignInView;md5a8be4a6364873456f106b5177ae5e322.SignInView
+perfict.droid.views.SignInView;md5a8be4a6364873456f106b5177ae5e322.SignInView
 PerFIct.Droid.Views.FragmentsMain.ExerciserFragment, PerFIct.Droid;perfict.droid.views.fragmentsmain.ExerciserFragment
 PerFIct.Droid.Views.FragmentsMain.ExerciserFragment, PerFIct.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;perfict.droid.views.fragmentsmain.ExerciserFragment
 PerFIct.Droid.Views.FragmentsMain.ExerciserFragment;perfict.droid.views.fragmentsmain.ExerciserFragment

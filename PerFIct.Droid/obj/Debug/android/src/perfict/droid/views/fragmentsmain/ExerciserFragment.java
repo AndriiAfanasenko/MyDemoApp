@@ -2,7 +2,7 @@ package perfict.droid.views.fragmentsmain;
 
 
 public class ExerciserFragment
-	extends mvvmcross.droid.support.v4.MvxFragment
+	extends md5273816ff2327f4ff8d73e35d2c343434.MvxFragment_1
 	implements
 		mono.android.IGCUserPeer
 {

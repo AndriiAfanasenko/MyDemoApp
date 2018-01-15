@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Input;
 using MvvmCross.Core.ViewModels;
 
 namespace PerFIct.Core.ViewModels
@@ -13,5 +14,6 @@ namespace PerFIct.Core.ViewModels
             First = new ExerciserViewModel();
             Second = new TrainerViewModel();
         }
+      
     }
 }

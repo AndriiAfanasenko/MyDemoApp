@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout 
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:local="http://schemas.android.com/apk/res-auto"
@@ -46,7 +45,7 @@
                 android:maxLines="1"
                 android:singleLine="true"
                 android:textColor="@android:color/black"
-                local:MvxBind="Text Email; Error Errors['Email']"/>
+                app:MvxBind="Text Email; Error Errors['Email']" />
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
             android:id="@+id/username_field"
@@ -108,9 +107,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        local:MvxBind="Click SigninCommand"/>
-    
-  <LinearLayout
+        local:MvxBind="Click SigninCommand" />
+    <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -129,11 +127,13 @@
             android:text="Already have an account? "
             android:textColor="@android:color/black" />
         <TextView
+          android:id="@+id/txtSignIn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Sign in"
-            android:textColor="@color/accent" />
+            android:textColor="@color/accent" 
+            local:MvxBind="Click GoToSignIn"/>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/linearLayout3"

@@ -2,7 +2,7 @@ package md5a8be4a6364873456f106b5177ae5e322;
 
 
 public class RegistrationView
-	extends mvvmcross.droid.support.v7.appcompat.MvxAppCompatActivity
+	extends md5b90cfa975ed30cc87ca34acf5312bbf9.MvxAppCompatActivity_1
 	implements
 		mono.android.IGCUserPeer
 {

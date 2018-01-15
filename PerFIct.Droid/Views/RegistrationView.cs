@@ -6,8 +6,9 @@ using Android.Support.Design.Widget;
 using Android.Support.V4.View;
 using Android.Support.V7.Widget;
 using Android.Views;
-using MvvmCross.Droid.Support.V4;
 using MvvmCross.Droid.Support.V7.AppCompat;
+using MvvmCross.Droid.Support.V4;
+
 using PerFIct.Core.ViewModels;
 using PerFIct.Droid.Adapters;
 using PerFIct.Droid.Views.FragmentsMain;
@@ -15,7 +16,7 @@ using PerFIct.Droid.Views.FragmentsMain;
 namespace PerFIct.Droid.Views
 {
     [Activity(Label = "View for RegistrationViewModel")]
-    public class RegistrationView: MvxAppCompatActivity
+    public class RegistrationView: MvxAppCompatActivity<RegistrationViewModel>
     {
         private ViewPager _viewPager;
         private MvxViewPagerFragmentAdapter _adapter;

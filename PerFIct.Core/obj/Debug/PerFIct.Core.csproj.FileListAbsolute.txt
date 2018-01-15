@@ -41,4 +41,3 @@ D:\Projects(Xamarin)\MyDemoApp\PerFIct.Core\bin\Debug\MvvmValidation.xml
 D:\Projects(Xamarin)\MyDemoApp\PerFIct.Core\obj\Debug\PerFIct.Core.csproj.CoreCompileInputs.cache
 D:\Projects(Xamarin)\MyDemoApp\PerFIct.Core\obj\Debug\PerFIct.Core.dll
 D:\Projects(Xamarin)\MyDemoApp\PerFIct.Core\obj\Debug\PerFIct.Core.pdb
-D:\Projects(Xamarin)\MyDemoApp\PerFIct.Core\obj\Debug\PerFIct.Core.csprojResolveAssemblyReference.cache

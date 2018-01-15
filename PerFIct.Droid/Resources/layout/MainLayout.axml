@@ -41,7 +41,8 @@
             android:layout_height="wrap_content"
             android:text="Sign in"
             android:textColor="@android:color/white"
-            android:background="@drawable/button_design"/>
+            android:background="@drawable/button_design"
+            local:MvxBind="Click GoToSignIn"/>
         <Button
             android:id="@+id/button2"
             android:layout_weight="1"
