@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
+    <Jar>obj\Debug\lp\16\jl\arch-core-common.jar</Jar>
+    <Jar>obj\Debug\lp\17\jl\arch-lifecycle-common.jar</Jar>
+    <Jar>obj\Debug\lp\20\jl\support-annotations.jar</Jar>
+    <Jar>obj\Debug\lp\23\jl\constraint-layout-solver.jar</Jar>
     <Jar>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\12\jl\bin\classes.jar</Jar>
     <Jar>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\16\jl\arch-core-common.jar</Jar>
     <Jar>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\17\jl\arch-lifecycle-common.jar</Jar>

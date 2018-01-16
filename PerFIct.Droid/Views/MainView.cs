@@ -47,7 +47,7 @@ namespace PerFIct.Droid.Views
             var timer = new System.Timers.Timer();
             timer.Interval = 2000;
             timer.Enabled = true;
-            int page = 0;
+            int  page = 0;
             timer.Elapsed += (sender, args) =>
             {
                 RunOnUiThread(() =>

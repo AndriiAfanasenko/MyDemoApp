@@ -16,7 +16,6 @@ namespace PerFIct.Droid.Views.FragmentsMain
     [Register("perfict.droid.views.fragmentsmain.ExerciserFragment")]
     public class ExerciserFragment: MvxFragment<ExerciserViewModel>
     {
-        private Context c;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
@@ -25,7 +24,5 @@ namespace PerFIct.Droid.Views.FragmentsMain
            
             return view;
         }
-
     }
-
 }
