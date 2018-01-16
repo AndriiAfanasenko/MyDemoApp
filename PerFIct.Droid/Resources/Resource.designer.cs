@@ -2639,6 +2639,27 @@ namespace PerFIct.Droid
 			// aapt resource value: 0x7f0100d2
 			public const int iconifiedByDefault = 2130772178;
 			
+			// aapt resource value: 0x7f0101c2
+			public const int icvp_center_page_scale_offset = 2130772418;
+			
+			// aapt resource value: 0x7f0101c3
+			public const int icvp_interpolator = 2130772419;
+			
+			// aapt resource value: 0x7f0101c4
+			public const int icvp_max_page_scale = 2130772420;
+			
+			// aapt resource value: 0x7f0101c5
+			public const int icvp_medium_scaled = 2130772421;
+			
+			// aapt resource value: 0x7f0101c6
+			public const int icvp_min_page_scale = 2130772422;
+			
+			// aapt resource value: 0x7f0101c7
+			public const int icvp_min_page_scale_offset = 2130772423;
+			
+			// aapt resource value: 0x7f0101c8
+			public const int icvp_scroll_duration = 2130772424;
+			
 			// aapt resource value: 0x7f01007c
 			public const int imageButtonStyle = 2130772092;
 			
@@ -5873,8 +5894,8 @@ namespace PerFIct.Droid
 			// aapt resource value: 0x7f0a0012
 			public const int abc_toolbar_collapse_description = 2131361810;
 			
-			// aapt resource value: 0x7f0a002a
-			public const int app_name = 2131361834;
+			// aapt resource value: 0x7f0a0029
+			public const int app_name = 2131361833;
 			
 			// aapt resource value: 0x7f0a0021
 			public const int appbar_scrolling_view_behavior = 2131361825;
@@ -5885,8 +5906,8 @@ namespace PerFIct.Droid
 			// aapt resource value: 0x7f0a0023
 			public const int character_counter_pattern = 2131361827;
 			
-			// aapt resource value: 0x7f0a0029
-			public const int hello = 2131361833;
+			// aapt resource value: 0x7f0a002a
+			public const int hello = 2131361834;
 			
 			// aapt resource value: 0x7f0a0024
 			public const int password_toggle_content_description = 2131361828;
@@ -8868,6 +8889,36 @@ namespace PerFIct.Droid
 			// aapt resource value: 2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
 			
+			public static int[] HorizontalInfiniteCycleViewPager = new int[] {
+					2130772418,
+					2130772419,
+					2130772420,
+					2130772421,
+					2130772422,
+					2130772423,
+					2130772424};
+			
+			// aapt resource value: 0
+			public const int HorizontalInfiniteCycleViewPager_icvp_center_page_scale_offset = 0;
+			
+			// aapt resource value: 1
+			public const int HorizontalInfiniteCycleViewPager_icvp_interpolator = 1;
+			
+			// aapt resource value: 2
+			public const int HorizontalInfiniteCycleViewPager_icvp_max_page_scale = 2;
+			
+			// aapt resource value: 3
+			public const int HorizontalInfiniteCycleViewPager_icvp_medium_scaled = 3;
+			
+			// aapt resource value: 4
+			public const int HorizontalInfiniteCycleViewPager_icvp_min_page_scale = 4;
+			
+			// aapt resource value: 5
+			public const int HorizontalInfiniteCycleViewPager_icvp_min_page_scale_offset = 5;
+			
+			// aapt resource value: 6
+			public const int HorizontalInfiniteCycleViewPager_icvp_scroll_duration = 6;
+			
 			public static int[] LinePageIndicator = new int[] {
 					16842964,
 					2130772383,
@@ -9913,6 +9964,36 @@ namespace PerFIct.Droid
 			
 			// aapt resource value: 1
 			public const int UnderlinePageIndicator_selectedColor = 1;
+			
+			public static int[] VerticalInfiniteCycleViewPager = new int[] {
+					2130772418,
+					2130772419,
+					2130772420,
+					2130772421,
+					2130772422,
+					2130772423,
+					2130772424};
+			
+			// aapt resource value: 0
+			public const int VerticalInfiniteCycleViewPager_icvp_center_page_scale_offset = 0;
+			
+			// aapt resource value: 1
+			public const int VerticalInfiniteCycleViewPager_icvp_interpolator = 1;
+			
+			// aapt resource value: 2
+			public const int VerticalInfiniteCycleViewPager_icvp_max_page_scale = 2;
+			
+			// aapt resource value: 3
+			public const int VerticalInfiniteCycleViewPager_icvp_medium_scaled = 3;
+			
+			// aapt resource value: 4
+			public const int VerticalInfiniteCycleViewPager_icvp_min_page_scale = 4;
+			
+			// aapt resource value: 5
+			public const int VerticalInfiniteCycleViewPager_icvp_min_page_scale_offset = 5;
+			
+			// aapt resource value: 6
+			public const int VerticalInfiniteCycleViewPager_icvp_scroll_duration = 6;
 			
 			public static int[] View = new int[] {
 					16842752,

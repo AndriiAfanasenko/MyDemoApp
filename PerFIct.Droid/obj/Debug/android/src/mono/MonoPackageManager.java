@@ -107,6 +107,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "PerFIct.Droid.dll" comes first in this list. */
 		"PerFIct.Droid.dll",
+		"InfiniteCycleViewPager.dll",
 		"MvvmCross.Binding.dll",
 		"MvvmCross.Binding.Droid.dll",
 		"MvvmCross.Core.dll",

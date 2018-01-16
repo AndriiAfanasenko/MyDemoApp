@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
-    <Jar>obj\Debug\lp\16\jl\arch-core-common.jar</Jar>
-    <Jar>obj\Debug\lp\17\jl\arch-lifecycle-common.jar</Jar>
-    <Jar>obj\Debug\lp\20\jl\support-annotations.jar</Jar>
-    <Jar>obj\Debug\lp\23\jl\constraint-layout-solver.jar</Jar>
     <Jar>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\12\jl\bin\classes.jar</Jar>
     <Jar>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\16\jl\arch-core-common.jar</Jar>
     <Jar>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\17\jl\arch-lifecycle-common.jar</Jar>
@@ -24,8 +20,10 @@
     <Jar>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\31\jl\bin\classes.jar</Jar>
     <Jar>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\32\jl\bin\classes.jar</Jar>
     <Jar>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\33\jl\bin\classes.jar</Jar>
+    <Jar>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\34\jl\bin\classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\34\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\1\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\7\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\12\jl\res</ResolvedResourceDirectory>
@@ -40,6 +38,7 @@
     <ResolvedResourceDirectory>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\32\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Debug\lp\34\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\lp\1\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\lp\7\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\lp\12\jl\assets</ResolvedAssetDirectory>
@@ -49,6 +48,7 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\34.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\1.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\7.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\lp\12.stamp</ResolvedResourceDirectoryStamp>

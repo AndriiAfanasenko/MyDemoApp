@@ -107,6 +107,7 @@ D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\android\assets\MvvmCross.
 D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\android\assets\MvvmCross.Platform.Droid.dll.mdb
 D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\android\assets\PerFIct.Core.dll.mdb
 D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\obj\Debug\android\assets\PerFIct.Droid.dll.mdb
+D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\bin\Debug\InfiniteCycleViewPager.dll
 D:\Projects(Xamarin)\MyDemoApp\PerFIct.Droid\bin\Debug\PerFIct.Droid.dll
 bin\Debug\PerFIct.Core.dll.mdb
 bin\Debug\Mono.Android.pdb

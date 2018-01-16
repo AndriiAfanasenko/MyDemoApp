@@ -38,8 +38,7 @@ namespace PerFIct.Droid.Adapters
         public override Fragment GetItem(int position)
         {
             var frag = Fragments.ElementAt(position);
-            var fragment = Fragment.Instantiate(_context,
-                                                FragmentJavaName(frag.FragmentType));
+            var fragment = Fragment.Instantiate(_context, FragmentJavaName(frag.FragmentType));
             ((MvxFragment)fragment).DataContext = frag.ViewModel;
             return fragment;
         }
@@ -52,6 +51,11 @@ namespace PerFIct.Droid.Adapters
             return namespaceText + fragmentType.Name;
         }
 
-        public override Java.Lang.ICharSequence GetPageTitleFormatted(int p0) { return new Java.Lang.String(Fragments.ElementAt(p0).Title); }
+        public override Java.Lang.ICharSequence GetPageTitleFormatted(int p0)
+        {
+            return new Java.Lang.String(Fragments.ElementAt(p0).Title);
+        }
+
+       
     }
 }

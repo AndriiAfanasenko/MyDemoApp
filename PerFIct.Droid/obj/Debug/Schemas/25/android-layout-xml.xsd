@@ -5,7 +5,7 @@
   <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>16.01.2018 15:06:12</xs:documentation>
+    <xs:documentation>16.01.2018 17:59:41</xs:documentation>
   </xs:annotation>
   <xs:group name="any-view">
     <xs:choice>
@@ -174,6 +174,9 @@
       <xs:element ref="android.support.v7.view.menu.ExpandedMenuView" />
       <xs:element ref="android.support.v7.view.menu.ListMenuItemView" />
       <xs:element ref="android.support.v7.view.menu.ActionMenuItemView" />
+      <xs:element ref="com.gigamole.infinitecycleviewpager.VerticalViewPager" />
+      <xs:element ref="com.gigamole.infinitecycleviewpager.VerticalInfiniteCycleViewPager" />
+      <xs:element ref="com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager" />
       <xs:element ref="include" />
     </xs:choice>
   </xs:group>
@@ -385,29 +388,7 @@
     <xs:attribute ref="android:pointerIcon" />
     <xs:attribute ref="android:forceHasOverlappingRendering" />
     <xs:attribute ref="tools:visibility" />
-    <xs:attribute ref="android:layout_toLeftOf" />
-    <xs:attribute ref="android:layout_toRightOf" />
-    <xs:attribute ref="android:layout_above" />
-    <xs:attribute ref="android:layout_below" />
-    <xs:attribute ref="android:layout_alignBaseline" />
-    <xs:attribute ref="android:layout_alignLeft" />
-    <xs:attribute ref="android:layout_alignTop" />
-    <xs:attribute ref="android:layout_alignRight" />
-    <xs:attribute ref="android:layout_alignBottom" />
-    <xs:attribute ref="android:layout_alignParentLeft" />
-    <xs:attribute ref="android:layout_alignParentTop" />
-    <xs:attribute ref="android:layout_alignParentRight" />
-    <xs:attribute ref="android:layout_alignParentBottom" />
-    <xs:attribute ref="android:layout_centerInParent" />
-    <xs:attribute ref="android:layout_centerHorizontal" />
-    <xs:attribute ref="android:layout_centerVertical" />
-    <xs:attribute ref="android:layout_alignWithParentIfMissing" />
-    <xs:attribute ref="android:layout_toStartOf" />
-    <xs:attribute ref="android:layout_toEndOf" />
-    <xs:attribute ref="android:layout_alignStart" />
-    <xs:attribute ref="android:layout_alignEnd" />
-    <xs:attribute ref="android:layout_alignParentStart" />
-    <xs:attribute ref="android:layout_alignParentEnd" />
+    <xs:attribute ref="android:layout_gravity" />
     <xs:attribute ref="android:layout_width" />
     <xs:attribute ref="android:layout_height" />
     <xs:attribute ref="android:layout_margin" />
@@ -1501,29 +1482,7 @@
     <xs:attribute ref="android:fragmentAllowEnterTransitionOverlap" />
     <xs:attribute ref="android:fragmentAllowReturnTransitionOverlap" />
     <xs:attribute ref="tools:layout" />
-    <xs:attribute ref="android:layout_toLeftOf" />
-    <xs:attribute ref="android:layout_toRightOf" />
-    <xs:attribute ref="android:layout_above" />
-    <xs:attribute ref="android:layout_below" />
-    <xs:attribute ref="android:layout_alignBaseline" />
-    <xs:attribute ref="android:layout_alignLeft" />
-    <xs:attribute ref="android:layout_alignTop" />
-    <xs:attribute ref="android:layout_alignRight" />
-    <xs:attribute ref="android:layout_alignBottom" />
-    <xs:attribute ref="android:layout_alignParentLeft" />
-    <xs:attribute ref="android:layout_alignParentTop" />
-    <xs:attribute ref="android:layout_alignParentRight" />
-    <xs:attribute ref="android:layout_alignParentBottom" />
-    <xs:attribute ref="android:layout_centerInParent" />
-    <xs:attribute ref="android:layout_centerHorizontal" />
-    <xs:attribute ref="android:layout_centerVertical" />
-    <xs:attribute ref="android:layout_alignWithParentIfMissing" />
-    <xs:attribute ref="android:layout_toStartOf" />
-    <xs:attribute ref="android:layout_toEndOf" />
-    <xs:attribute ref="android:layout_alignStart" />
-    <xs:attribute ref="android:layout_alignEnd" />
-    <xs:attribute ref="android:layout_alignParentStart" />
-    <xs:attribute ref="android:layout_alignParentEnd" />
+    <xs:attribute ref="android:layout_gravity" />
     <xs:attribute ref="android:layout_width" />
     <xs:attribute ref="android:layout_height" />
     <xs:attribute ref="android:layout_margin" />
@@ -2680,6 +2639,52 @@
   <xs:complexType name="android.support.v7.view.menu.ActionMenuItemView">
     <xs:complexContent mixed="false">
       <xs:extension base="TextView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="com.gigamole.infinitecycleviewpager.VerticalViewPager" type="com.gigamole.infinitecycleviewpager.VerticalViewPager">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Com.Gigamole.Infinitecycleviewpager.VerticalViewPager</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="com.gigamole.infinitecycleviewpager.VerticalViewPager">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="com.gigamole.infinitecycleviewpager.VerticalInfiniteCycleViewPager" type="com.gigamole.infinitecycleviewpager.VerticalInfiniteCycleViewPager">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Com.Gigamole.Infinitecycleviewpager.VerticalInfiniteCycleViewPager</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="com.gigamole.infinitecycleviewpager.VerticalInfiniteCycleViewPager">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="app:icvp_min_page_scale_offset" />
+        <xs:attribute ref="app:icvp_center_page_scale_offset" />
+        <xs:attribute ref="app:icvp_min_page_scale" />
+        <xs:attribute ref="app:icvp_max_page_scale" />
+        <xs:attribute ref="app:icvp_medium_scaled" />
+        <xs:attribute ref="app:icvp_scroll_duration" />
+        <xs:attribute ref="app:icvp_interpolator" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager" type="com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Com.Gigamole.Infinitecycleviewpager.HorizontalInfiniteCycleViewPager</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="app:icvp_min_page_scale_offset" />
+        <xs:attribute ref="app:icvp_center_page_scale_offset" />
+        <xs:attribute ref="app:icvp_min_page_scale" />
+        <xs:attribute ref="app:icvp_max_page_scale" />
+        <xs:attribute ref="app:icvp_medium_scaled" />
+        <xs:attribute ref="app:icvp_scroll_duration" />
+        <xs:attribute ref="app:icvp_interpolator" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="include" type="include">

@@ -1392,6 +1392,62 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int iconifiedByDefault=0x7f0100d2;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int icvp_center_page_scale_offset=0x7f0101c2;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int icvp_interpolator=0x7f0101c3;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int icvp_max_page_scale=0x7f0101c4;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int icvp_medium_scaled=0x7f0101c5;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int icvp_min_page_scale=0x7f0101c6;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int icvp_min_page_scale_offset=0x7f0101c7;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int icvp_scroll_duration=0x7f0101c8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -4379,11 +4435,11 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f0a0010;
         public static final int abc_shareactionprovider_share_with_application=0x7f0a0011;
         public static final int abc_toolbar_collapse_description=0x7f0a0012;
-        public static final int app_name=0x7f0a002a;
+        public static final int app_name=0x7f0a0029;
         public static final int appbar_scrolling_view_behavior=0x7f0a0021;
         public static final int bottom_sheet_behavior=0x7f0a0022;
         public static final int character_counter_pattern=0x7f0a0023;
-        public static final int hello=0x7f0a0029;
+        public static final int hello=0x7f0a002a;
         public static final int password_toggle_content_description=0x7f0a0024;
         public static final int path_password_eye=0x7f0a0025;
         public static final int path_password_eye_mask_strike_through=0x7f0a0026;
@@ -11261,6 +11317,130 @@ containing a value of this type.
           @attr name com.afanasenko.PerFIct:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
+        /** Attributes that can be used with a HorizontalInfiniteCycleViewPager.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #HorizontalInfiniteCycleViewPager_icvp_center_page_scale_offset com.afanasenko.PerFIct:icvp_center_page_scale_offset}</code></td><td></td></tr>
+           <tr><td><code>{@link #HorizontalInfiniteCycleViewPager_icvp_interpolator com.afanasenko.PerFIct:icvp_interpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #HorizontalInfiniteCycleViewPager_icvp_max_page_scale com.afanasenko.PerFIct:icvp_max_page_scale}</code></td><td></td></tr>
+           <tr><td><code>{@link #HorizontalInfiniteCycleViewPager_icvp_medium_scaled com.afanasenko.PerFIct:icvp_medium_scaled}</code></td><td></td></tr>
+           <tr><td><code>{@link #HorizontalInfiniteCycleViewPager_icvp_min_page_scale com.afanasenko.PerFIct:icvp_min_page_scale}</code></td><td></td></tr>
+           <tr><td><code>{@link #HorizontalInfiniteCycleViewPager_icvp_min_page_scale_offset com.afanasenko.PerFIct:icvp_min_page_scale_offset}</code></td><td></td></tr>
+           <tr><td><code>{@link #HorizontalInfiniteCycleViewPager_icvp_scroll_duration com.afanasenko.PerFIct:icvp_scroll_duration}</code></td><td></td></tr>
+           </table>
+           @see #HorizontalInfiniteCycleViewPager_icvp_center_page_scale_offset
+           @see #HorizontalInfiniteCycleViewPager_icvp_interpolator
+           @see #HorizontalInfiniteCycleViewPager_icvp_max_page_scale
+           @see #HorizontalInfiniteCycleViewPager_icvp_medium_scaled
+           @see #HorizontalInfiniteCycleViewPager_icvp_min_page_scale
+           @see #HorizontalInfiniteCycleViewPager_icvp_min_page_scale_offset
+           @see #HorizontalInfiniteCycleViewPager_icvp_scroll_duration
+         */
+        public static final int[] HorizontalInfiniteCycleViewPager = {
+            0x7f0101c2, 0x7f0101c3, 0x7f0101c4, 0x7f0101c5,
+            0x7f0101c6, 0x7f0101c7, 0x7f0101c8
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.afanasenko.PerFIct.R.attr#icvp_center_page_scale_offset}
+          attribute's value can be found in the {@link #HorizontalInfiniteCycleViewPager} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.afanasenko.PerFIct:icvp_center_page_scale_offset
+        */
+        public static final int HorizontalInfiniteCycleViewPager_icvp_center_page_scale_offset = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.afanasenko.PerFIct.R.attr#icvp_interpolator}
+          attribute's value can be found in the {@link #HorizontalInfiniteCycleViewPager} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.afanasenko.PerFIct:icvp_interpolator
+        */
+        public static final int HorizontalInfiniteCycleViewPager_icvp_interpolator = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.afanasenko.PerFIct.R.attr#icvp_max_page_scale}
+          attribute's value can be found in the {@link #HorizontalInfiniteCycleViewPager} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.afanasenko.PerFIct:icvp_max_page_scale
+        */
+        public static final int HorizontalInfiniteCycleViewPager_icvp_max_page_scale = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.afanasenko.PerFIct.R.attr#icvp_medium_scaled}
+          attribute's value can be found in the {@link #HorizontalInfiniteCycleViewPager} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.afanasenko.PerFIct:icvp_medium_scaled
+        */
+        public static final int HorizontalInfiniteCycleViewPager_icvp_medium_scaled = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.afanasenko.PerFIct.R.attr#icvp_min_page_scale}
+          attribute's value can be found in the {@link #HorizontalInfiniteCycleViewPager} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.afanasenko.PerFIct:icvp_min_page_scale
+        */
+        public static final int HorizontalInfiniteCycleViewPager_icvp_min_page_scale = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.afanasenko.PerFIct.R.attr#icvp_min_page_scale_offset}
+          attribute's value can be found in the {@link #HorizontalInfiniteCycleViewPager} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.afanasenko.PerFIct:icvp_min_page_scale_offset
+        */
+        public static final int HorizontalInfiniteCycleViewPager_icvp_min_page_scale_offset = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.afanasenko.PerFIct.R.attr#icvp_scroll_duration}
+          attribute's value can be found in the {@link #HorizontalInfiniteCycleViewPager} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.afanasenko.PerFIct:icvp_scroll_duration
+        */
+        public static final int HorizontalInfiniteCycleViewPager_icvp_scroll_duration = 6;
         /** Attributes that can be used with a LinePageIndicator.
            <p>Includes the following attributes:</p>
            <table>
@@ -15067,6 +15247,130 @@ containing a value of this type.
           @attr name com.afanasenko.PerFIct:selectedColor
         */
         public static final int UnderlinePageIndicator_selectedColor = 1;
+        /** Attributes that can be used with a VerticalInfiniteCycleViewPager.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #VerticalInfiniteCycleViewPager_icvp_center_page_scale_offset com.afanasenko.PerFIct:icvp_center_page_scale_offset}</code></td><td></td></tr>
+           <tr><td><code>{@link #VerticalInfiniteCycleViewPager_icvp_interpolator com.afanasenko.PerFIct:icvp_interpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #VerticalInfiniteCycleViewPager_icvp_max_page_scale com.afanasenko.PerFIct:icvp_max_page_scale}</code></td><td></td></tr>
+           <tr><td><code>{@link #VerticalInfiniteCycleViewPager_icvp_medium_scaled com.afanasenko.PerFIct:icvp_medium_scaled}</code></td><td></td></tr>
+           <tr><td><code>{@link #VerticalInfiniteCycleViewPager_icvp_min_page_scale com.afanasenko.PerFIct:icvp_min_page_scale}</code></td><td></td></tr>
+           <tr><td><code>{@link #VerticalInfiniteCycleViewPager_icvp_min_page_scale_offset com.afanasenko.PerFIct:icvp_min_page_scale_offset}</code></td><td></td></tr>
+           <tr><td><code>{@link #VerticalInfiniteCycleViewPager_icvp_scroll_duration com.afanasenko.PerFIct:icvp_scroll_duration}</code></td><td></td></tr>
+           </table>
+           @see #VerticalInfiniteCycleViewPager_icvp_center_page_scale_offset
+           @see #VerticalInfiniteCycleViewPager_icvp_interpolator
+           @see #VerticalInfiniteCycleViewPager_icvp_max_page_scale
+           @see #VerticalInfiniteCycleViewPager_icvp_medium_scaled
+           @see #VerticalInfiniteCycleViewPager_icvp_min_page_scale
+           @see #VerticalInfiniteCycleViewPager_icvp_min_page_scale_offset
+           @see #VerticalInfiniteCycleViewPager_icvp_scroll_duration
+         */
+        public static final int[] VerticalInfiniteCycleViewPager = {
+            0x7f0101c2, 0x7f0101c3, 0x7f0101c4, 0x7f0101c5,
+            0x7f0101c6, 0x7f0101c7, 0x7f0101c8
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.afanasenko.PerFIct.R.attr#icvp_center_page_scale_offset}
+          attribute's value can be found in the {@link #VerticalInfiniteCycleViewPager} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.afanasenko.PerFIct:icvp_center_page_scale_offset
+        */
+        public static final int VerticalInfiniteCycleViewPager_icvp_center_page_scale_offset = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.afanasenko.PerFIct.R.attr#icvp_interpolator}
+          attribute's value can be found in the {@link #VerticalInfiniteCycleViewPager} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.afanasenko.PerFIct:icvp_interpolator
+        */
+        public static final int VerticalInfiniteCycleViewPager_icvp_interpolator = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.afanasenko.PerFIct.R.attr#icvp_max_page_scale}
+          attribute's value can be found in the {@link #VerticalInfiniteCycleViewPager} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.afanasenko.PerFIct:icvp_max_page_scale
+        */
+        public static final int VerticalInfiniteCycleViewPager_icvp_max_page_scale = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.afanasenko.PerFIct.R.attr#icvp_medium_scaled}
+          attribute's value can be found in the {@link #VerticalInfiniteCycleViewPager} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.afanasenko.PerFIct:icvp_medium_scaled
+        */
+        public static final int VerticalInfiniteCycleViewPager_icvp_medium_scaled = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.afanasenko.PerFIct.R.attr#icvp_min_page_scale}
+          attribute's value can be found in the {@link #VerticalInfiniteCycleViewPager} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.afanasenko.PerFIct:icvp_min_page_scale
+        */
+        public static final int VerticalInfiniteCycleViewPager_icvp_min_page_scale = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.afanasenko.PerFIct.R.attr#icvp_min_page_scale_offset}
+          attribute's value can be found in the {@link #VerticalInfiniteCycleViewPager} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.afanasenko.PerFIct:icvp_min_page_scale_offset
+        */
+        public static final int VerticalInfiniteCycleViewPager_icvp_min_page_scale_offset = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.afanasenko.PerFIct.R.attr#icvp_scroll_duration}
+          attribute's value can be found in the {@link #VerticalInfiniteCycleViewPager} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.afanasenko.PerFIct:icvp_scroll_duration
+        */
+        public static final int VerticalInfiniteCycleViewPager_icvp_scroll_duration = 6;
         /** Attributes that can be used with a View.
            <p>Includes the following attributes:</p>
            <table>
